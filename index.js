@@ -7,7 +7,7 @@ client.on('message', message => {
 if (!message.guild) return; 
 
 if (message.content === 'wara') { 
- if (!message.member.hasPermission("ADMINISTRATOR"))  return;
+ if (!message.member.hasPermission("ADMINISTRATOR"))  ;
 if (message.member.voiceChannel) { 
 
 message.member.voiceChannel.join() 
